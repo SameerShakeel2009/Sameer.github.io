@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <title>Portfolio</title>
+</head>
+<style>
+    body{
+        width: 100%;
+    }
+    #logo {
+        width: 6%;
+        filter: drop-shadow(2px 4px 6px black);
+    }
+
+    #navbar {
+        background-color: #fffd7f;
+    }
+
+    .intro {
+        color:#1520b8;
+        text-align: left;
+        font-family: Inter;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding-left: 2%;
+    }
+
+    .display {
+        width: 37%;
+        padding-left: 2%;
+    }
+
+    #Image {
+        width: 300px;
+        position: absolute;
+        display: inline-flex;
+        right: 148px;
+        top: 63px;
+        border: 2px solid black;
+        border-radius: 43px;
+    }
+
+    .box1 {
+        margin: 12px 30px;
+        /* border: 2px solid red; */
+        display: inline-flex;
+        text-align: center;
+
+    }
+
+    .box2 {
+        border: 1px solid rgb(0, 0, 0);
+        padding: 15px;
+        margin: 1px;
+        line-height: 6px;
+        background-color: #a0f8bd;
+
+    }
+
+    .box1 :hover {
+        background-color: rgb(255, 240, 240);
+    }
+
+    .middle {
+        border: 2px solid rgb(0, 0, 0);
+        margin: 20px;
+        width: 70%;
+        height: 430px;
+
+    }
+
+    #image2 {
+        width: 300px;
+    }
+
+    h3 {
+        position: relative;
+        text-align: justify;
+        bottom: 400px;
+        left: 38%;
+    }
+
+    .para {
+        position: relative;
+        text-align: justify;
+        width: 37%;
+        bottom: 400px;
+        left: 38%;
+
+    }
+
+    #Image:hover {
+        transform: scale(1.05);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .logo1 {
+        width: 20%;
+        margin-top: -37px;
+        margin-left: 53px;
+        filter: drop-shadow(2px 4px 6px black);
+    }
+
+    .logo1:hover {
+        transform: scale(1.05);
+    }
+
+    .process {
+        border: 2px solid black;
+        margin: 7px;
+        padding: 20px;
+        background-color: rgb(178, 172, 172);
+    }
+
+    .para1 {
+        width: 440px;
+        text-align: justify;
+    }
+    .card{
+        border: 2px solid black;
+        width: 50%;
+    }
+    .box3{
+        border: 2px solid rgb(0, 225, 255);
+        width: 40%;
+        display: block;
+        height: 550px;
+    }
+    
+
+   
+</style>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
+            <div class="container-fluid">
+                <div><a class="navbar-brand" href="#"><img src="sameer.jpg"  width="30px" srcset=""></a></div>
+
+                <div class="collapse navbar-collapse mx-auto text-center" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Process</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                    </ul>
+                    <button type="button" class="btn btn-outline-secondary">Contact</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <aside>
+        <div>
+            <p class="intro">Hello, I’m</p>
+            <span class="intro">Sameer</span>
+            <span>
+                <p class="display">I'm a website developer passionate about crafting exceptional digital experiences.
+                    I specialize in creating user-friendly, responsive websites that bring ideas to life. Let's build
+                    something amazing together!</p>
+            </span>
+            <button type="button" class="btn btn-outline-secondary ms-5 mt-5">Say Hello!</button>
+            <img src="sameer.jpg" id="Image" alt="">
+        </div>
+        <div>
+        </div>
+        <div class="box1">
+            <div class="box2">
+                <p>6 Month</p><span>Experience</span>
+            </div>
+            <div class="box2">
+                <p>10+</p><span>Project Completed</span>
+            </div>
+            <div class="box2">
+                <p>20</p><span>Happy Client</span>
+            </div>
+        </div>
+    </aside>
+    <section>
+        <div class="middle">
+            <img src="samer2.jpg" id="image2" alt="" height="420px">
+            <div class="logo">
+                <img src="/img/social-media-5995251_1280.png" class="logo1" alt="">
+            </div>
+            <h3 class="user">I am Professional User</h3>
+            <h3><span><b>Website Developer & UI/UX Designer</b></span></h3>
+            <div class="para">
+                <p>As a professional website developer, I design and code dynamic, user-centric websites. With a strong
+                    portfolio and expertise, I create digital solutions that engage, inspire, and drive results.</p>
+                <button type="button" class="btn btn-outline-secondary ms-5 mt-5">My Project</button>
+            </div>
+           </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+</body>
+
+</html>
